@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import cid
+import CID
 
 ######## CID Specific Information ##############
 
@@ -18,7 +18,7 @@ outroot = 'NFIRAOS_'
 
 ######## End of Specific CID Information
 
-cid.make_cid(dirpath, CID_coll, htmlfile, outroot)
+CID.make_cid(dirpath, CID_coll, htmlfile, outroot)
 
 
 
